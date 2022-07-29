@@ -18,5 +18,5 @@ use App\Http\Controllers\AssignmentController;
 /*Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });*/
- Route::post('propertyTax/{property_uid}', 'App\Http\Controllers\AssignmentController@propertyTax'); //Post, must be called from app
+ Route::get('propertyTax/{property_uid}', 'App\Http\Controllers\AssignmentController@propertyTax'); //Post, must be called from app
  
